@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+body {
+    background-color: #181d25;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: #181920;
+    width: 230px;
+    height: 40vh;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    color: white;
+}
+
+.login-btn {
+    height: 75px;
+    width: 200px;
+    background-color: #60a1d2;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+input {
+    height: 75px;
+    width: 200px;
+    border: none;
+    outline: none;
+    background-color: #252A34;
+    padding-left: 5px;
+    border-radius: 25px;
+    color: rgb(204, 204, 204);
+}
+
+.text-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input::placeholder {
+    color: white;
+}
